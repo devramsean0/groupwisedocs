@@ -4,7 +4,7 @@ description: How to connect the appliance to Groupwise
 ---
 
 1. Navigate back to the Groupwise Administration portal.
-2. Go to System > Advanced Authentication
+2. Go to System } Advanced Authentication
 3. Click New at the top
 4. Give the server a name
 5. Set the hostname to the FQDN of the AAuth server that you used for enrollment
@@ -24,7 +24,7 @@ Now, you need to configure the Oauth2 Event
 3. Copy the Client ID that you saved earlier into the Client ID field
 4. Copy the Client Secret that you saved earlier into the Client Secret field
 5. Copy the Redirect URI's to your clipboard.
-6. In a seperate tab, navigate back the admin area of the main Advanced authentication portal (https://<YOUR AAUTH SERVERS DOMAIN>/admin)
+6. In a seperate tab, navigate back the admin area of the main Advanced authentication portal (https://{YOUR AAUTH SERVERS DOMAIN}/admin)
 7. Reopen the OAuth Event you created earlier
 8. Copy the Redirect URI's into the redirect URI's field.
 9. Click Save
@@ -32,7 +32,7 @@ Now, you need to configure the Oauth2 Event
 
 Now, you need to enable Advanced Authentication on the post office.
 1. In the Groupwise Administration Pamel
-2. Navigate to Post Offices > Your Post Office > Client Options > Security
+2. Navigate to Post Offices } Your Post Office } Client Options } Security
 3. set the Advanced Authentication dropdown to Enabled or Required (enable will mfa if enrolled, required will force it and stop anyone who is not enrolled)
 4. Click OK
 

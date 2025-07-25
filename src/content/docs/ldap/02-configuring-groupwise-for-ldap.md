@@ -9,12 +9,12 @@ This assumes you have a basic Groupwise installation already. Installation of Gr
 Real simple, Just log in to the GW Administration interface as the admin user. The interface is at port 9710.
 
 ## Step 2: Add the eDirectory server to the system
-1. Go to System > LDAP Servers > New Directory
+1. Go to System } LDAP Servers } New Directory
 2. Give it a name like eDirectory
 3. Fill in the FQDN (if DNS) and click the "Use SSL button"
 4. For the SSL Certificate, upload the cert you downloaded from the Identity Console
-5. Enter the username in LDAP format (`cn=admin,o=<YOUR ORG>`) and enter the admin password from earlier.
-6. Under Base dn enter the organizational unit part (`o=<YOUR ORG>`)
+5. Enter the username in LDAP format (`cn=admin,o={YOUR ORG}`) and enter the admin password from earlier.
+6. Under Base dn enter the organizational unit part (`o={YOUR ORG}`)
 7. Choose your domain under Sync Domain and enable syncronization.
 8. Press the Test Connection button, it should work
 9. Navigate to the LDAP Authentication tab, and entier the username in LDAP format and the password
@@ -33,7 +33,7 @@ Real simple, Just log in to the GW Administration interface as the admin user. T
 ## Step 4: Import Users
 This is where you link or create your users based on the LDAP tree.
 
-1. Navigate to System > User Import
+1. Navigate to System } User Import
 2. Choose your Post Office
 3. Leave the context empty
 4. Leave the LDAP filter empty

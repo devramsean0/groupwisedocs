@@ -10,8 +10,8 @@ LDAP is how Advanced Authentication and Groupwise communicate. It also acts as a
 2. Click "New LDAP repo"
 3. Change the LDAP type to "eDirectory" (if you are using an eDirectory LDAP server)
 4. Set a name for your repository
-5. Set the Base DN to `,o=<YOUR ORG>` replacing `<YOUR ORG>` like in my previous examples.
-6. Set the User to `cn=admin,o=<YOUR ORG>`
+5. Set the Base DN to `,o={YOUR ORG}` replacing `{YOUR ORG}` like in my previous examples.
+6. Set the User to `cn=admin,o={YOUR ORG}`
 7. Enter the password for the admin user.
 
 Near the bottom of the page there is a LDAP Servers option:
@@ -79,7 +79,7 @@ Oauth events are used on new Groupwise Clients like Groupwise Web and the Admin 
 ## Time to Enroll!
 So, you now have a method and a chain and all the basic building blocks, but now you need to enroll a user to test with.
 
-Navigate to your root DNS record in the browser, so like `https://<YOUR AAUTH FQDN>` and login with a user on your LDAP repository.
+Navigate to your root DNS record in the browser, so like `https://{YOUR AAUTH FQDN}` and login with a user on your LDAP repository.
 
 Under your "Enrolled Single Methods for sign in" header. Click the add button.
 Choose TOTP and follow it's instructions scanning the QR Code.
