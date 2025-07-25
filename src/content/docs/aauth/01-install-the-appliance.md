@@ -56,7 +56,7 @@ You then want to download the resulting server.crt file.\
 The previous commands will generate a certificate with the correct information so that Groupwise will trust it.
 
 ## Step 3: Import the SSL certificate
-1. Navigate to https://<YOUR AAUTH SERVERS DOMAIN>/admib
+1. Navigate to https://<YOUR AAUTH SERVERS DOMAIN>/admin
 2. Log in with the username LOCAL\admin and the password you set for the admin user
 3. On the left go down to "Server Options"
 4. Click the cog on the TLS row in the certificate manager
