@@ -34,3 +34,22 @@ After you get to the Express Installation, page. enter the following information
 | Directory Information Base | Leave Default | This is a good place to leave it! |
 
 When asked if you want to keep SLP multicast, click yes.
+
+If you don't have a static IP, this will fail. 
+
+## Step 3: After Installation
+Now, you should install the OES Unified Management Console (UMC) This provides quick links to things like the identity console.
+
+1. Log in as an admin to the desktop environment,
+2. Click Activities > Search OES Install > Click the OES Install app
+3. Scroll down on the left to "OES Unified Management Console" and click the tickbox
+4. Click Accept down at the bottom right
+
+And then you will be able to access the UMC on the server's IP
+
+## Step 4: Open the Identity Console
+1. Log in to the server's UMC using your LDAP credentials (`cn=admin,o=<YOUR ORG>` <YOUR ORG> being the same thing you set it to).\
+2. Click the identity console link on the left.\
+3. Go to User Management button
+4. Press the + button on the top row, pick a username and choose the root context. Complete all required inputs at the bottom. Then press create
+5. Then press the home button, Then press the Certificate Management button TODO
