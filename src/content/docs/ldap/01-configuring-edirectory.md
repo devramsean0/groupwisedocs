@@ -37,6 +37,8 @@ When asked if you want to keep SLP multicast, click yes.
 
 If you don't have a static IP, this will fail. 
 
+If you are asked for the postgres database details, pick any username and password. It doesn't really matter
+
 ## Step 3: After Installation
 Now, you should install the OES Unified Management Console (UMC) This provides quick links to things like the identity console.
 
@@ -48,8 +50,8 @@ Now, you should install the OES Unified Management Console (UMC) This provides q
 And then you will be able to access the UMC on the server's IP
 
 ## Step 4: Open the Identity Console
-1. Log in to the server's UMC using your LDAP credentials (`cn=admin,o={YOUR ORG}` {YOUR ORG} being the same thing you set it to).\
-2. Click the identity console link on the left.\
+1. Log in to the server's UMC using your LDAP credentials (`cn=admin,o={YOUR ORG}` {YOUR ORG} being the same thing you set it to).
+2. Click the identity console link on the left.
 3. Go to User Management button
 4. Press the + button on the top row, pick a username and choose the root context. Complete all required inputs at the bottom. Then press create
-5. Then press the home button, Then press the Certificate Management button TODO
+5. Then press the home button, Then press the Certificate Management button and download the SSL Certificate by clicking on the tickbox and then the download icon and following the prompt
