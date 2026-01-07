@@ -21,6 +21,10 @@ export default defineConfig({
 				{
 					label: 'Advanced Authentication',
 					autogenerate: { directory: 'aauth' }
+				},
+				{
+					label: 'Immich',
+					autogenerate: { directory: 'immich' }
 				}
 			],
 		}),
