@@ -56,17 +56,18 @@ Now we need to tell immich to scan for the libary and import it. You will need t
 
 1. Visit `https://<IMMICH SERVER URL>/admin/library-management`
 2. Click "Create Library"
-
+![Create Library Button](../../../assets/immich/external-libraries/01-libraries-create.png)
 3. Choose the user based on their name from the dropdown
-
 4. Click create
-
+![Create Library Modal](../../../assets/immich/external-libraries/02-libraries-create-modal.png)
 5. Press "Rename" and give it a description
-
+![Rename Library](../../../assets/immich/external-libraries/03-rename-library.png)
 6. Press the Add folder button
+![Add Folder Button](../../../assets/immich/external-libraries/04-add-folder.png)
 7. Enter the full absolute path (in the case of the file mount example above it is `/mnt/media/Photo/2.PHOTO`) IT IS CASE SENSITIVE
 8. Press Add
 9. Press the Scan button
+![scan Folder](../../../assets/immich/external-libraries/05-scan-library.png)
 10. Wait! It may take a while to generate metadata and thumbnails depending on the size of the library.
 
 
