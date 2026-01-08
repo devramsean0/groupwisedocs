@@ -58,5 +58,11 @@ The key differences are:
 - The people list has moved to the Explore Page
 - The map has moved to the map page
 
-And in general all the buttons along the bottom of the page have moved to the left sidepanel
+And in general all the buttons along the bottom of the page have moved to the left side bar
+
+The website can also be installed as an app, which will allow you to pin it to the homepage.
+On Microsoft Edge, this is done by pressing the "Install Immich App" button that appears for a short amount of time when you load the immich site in a new tab. this can then be pinned to your task bar or found in the Windows Start Menu
+
+
+#
 
